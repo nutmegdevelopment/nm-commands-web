@@ -1,0 +1,33 @@
+{
+  "name": "nm-commands-web",
+  "version": "1.0.0",
+  "description": "A collection of aliases that can speed up development",
+  "main": "new-branch.js",
+  "bin": {
+    "nb": "./commands/new-branch.js",
+    "push": "./commands/push-changes.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nutmegdevelopment/nm-commands-web.git"
+  },
+  "keywords": [
+    "commands"
+  ],
+  "author": "shaun.stone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nutmegdevelopment/nm-commands-web/issues"
+  },
+  "homepage": "https://github.com/nutmegdevelopment/nm-commands-web#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "fs-extra": "^5.0.0",
+    "opn": "^5.1.0",
+    "readline-sync": "^1.4.7",
+    "shelljs": "^0.7.8"
+  }
+}
