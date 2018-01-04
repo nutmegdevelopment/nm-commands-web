@@ -6,7 +6,9 @@
   "bin": {
     "nb": "./commands/new-branch.js",
     "push": "./commands/push-changes.js",
-    "nut_local": "./commands/run-local-nut.js"
+    "nut": "npm run nut_local && npm run nut_services",
+    "nut_local": "./commands/run-local-nut.js",
+    "nut_services": "./commands/run-nut-services.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
