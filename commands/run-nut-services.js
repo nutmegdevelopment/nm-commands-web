@@ -6,4 +6,4 @@ const process = require('process');
 
 // Start up services
 shell.cd('~/nutmeg/nutmeg-services');
-const servicesProcess = spawn('bash', ['start-min-services.sh'], { shell: true, stdio: 'inherit' });
+const servicesProcess = spawn('bash', ['start-min-services.sh -f front'], { shell: true, stdio: 'inherit' });

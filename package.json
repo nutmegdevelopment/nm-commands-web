@@ -6,8 +6,8 @@
   "bin": {
     "nb": "./commands/new-branch.js",
     "push": "./commands/push-changes.js",
-    "nut": "npm run nut_local && npm run nut_services",
     "nut_local": "./commands/run-local-nut.js",
+    "nut_e2e": "./commands/run-e2e.js",
     "nut_services": "./commands/run-nut-services.js"
   },
   "scripts": {
